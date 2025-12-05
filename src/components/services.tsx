@@ -1,4 +1,4 @@
-import { Target, TrendingUp, Share2, PenTool, BarChart3, Megaphone, ShoppingCart, Globe, Users, Zap } from "lucide-react";
+import { Target, TrendingUp, Share2, PenTool, BarChart3, Megaphone, ShoppingCart, Globe, Users, Zap, Search, MessageCircle } from "lucide-react";
 import { motion } from "motion/react";
 import { useNavigate } from "react-router-dom";
 
@@ -52,6 +52,18 @@ const services = [
     icon: BarChart3,
     title: "Marketing Analytics",
     description: "Transform data into actionable insights with comprehensive analytics and performance tracking."
+  }
+  ,
+  {
+    icon: Search,
+    title: "Search Engine Optimization",
+    description: "Improve your website's visibility and ranking on search engines to drive organic traffic and increase online presence."
+  }
+  ,
+  {
+    icon: MessageCircle,
+    title: "Business Consultation",
+    description: "Strategic business consulting to optimize your marketing processes, identify growth opportunities, and develop winning strategies."
   }
 ];
 

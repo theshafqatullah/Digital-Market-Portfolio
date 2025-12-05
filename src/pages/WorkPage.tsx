@@ -90,7 +90,7 @@ export function WorkPage() {
                   {/* Project Image */}
                   <div className="relative h-48 overflow-hidden bg-white/5">
                     <ImageWithFallback
-                      src={`https://images.unsplash.com/photo-${1550000000000 + index}?w=600&q=80`}
+                      src={project.image}
                       alt={project.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />

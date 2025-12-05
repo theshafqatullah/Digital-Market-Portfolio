@@ -8,7 +8,6 @@ export function Experience() {
       role: "Digital Marketing Specialist",
       company: "APIMS TEC",
       location: "Pakistan",
-      period: "July 2025 - Present",
       type: "Full-time",
       responsibilities: [
         "Developing and executing comprehensive digital marketing strategies",
@@ -21,7 +20,6 @@ export function Experience() {
       role: "Digital Marketing Manager",
       company: "ZAHA GLOBAL",
       location: "Germany",
-      period: "July 2025 - Present",
       type: "Full-time",
       responsibilities: [
         "Leading digital marketing initiatives for international markets",
@@ -34,7 +32,6 @@ export function Experience() {
       role: "Founder",
       company: "Gen Z Scent",
       location: "Multan, Punjab, Pakistan",
-      period: "September 2025 - Present",
       type: "Full-time",
       responsibilities: [
         "Founded modern fragrance brand offering premium fragrances tailored to every mood",
@@ -47,7 +44,6 @@ export function Experience() {
       role: "Finance Department Intern",
       company: "MEPCO",
       location: "Multan, Punjab, Pakistan",
-      period: "June 2025 - August 2025",
       type: "Internship",
       responsibilities: [
         "Assisted with financial analysis and reporting",
@@ -60,7 +56,6 @@ export function Experience() {
       role: "Social Media Marketing Manager",
       company: "ICMA Pakistan",
       location: "Pakistan",
-      period: "December 2024 - March 2025",
       type: "Full-time",
       responsibilities: [
         "Managed social media presence and content strategy",
@@ -73,7 +68,6 @@ export function Experience() {
       role: "Digital Marketing Manager",
       company: "CorbitSoft PVT LTD.",
       location: "Remote",
-      period: "January 2025 - February 2025",
       type: "Full-time",
       responsibilities: [
         "Developed and executed digital marketing campaigns",
@@ -86,7 +80,6 @@ export function Experience() {
       role: "Social Media Manager",
       company: "Codexcel",
       location: "Remote",
-      period: "January 2025 - February 2025",
       type: "Full-time",
       responsibilities: [
         "Managed social media accounts and content calendars",
@@ -183,10 +176,6 @@ export function Experience() {
                           </div>
 
                           <div className="flex flex-wrap gap-4 text-sm text-white/60 mb-4">
-                            <div className="flex items-center gap-1.5">
-                              <Calendar className="w-4 h-4 text-[#FFE500]" />
-                              <span>{exp.period}</span>
-                            </div>
                             <div className="flex items-center gap-1.5">
                               <MapPin className="w-4 h-4 text-[#FFE500]" />
                               <span>{exp.location}</span>
