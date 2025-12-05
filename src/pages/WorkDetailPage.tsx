@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { ArrowLeft, TrendingUp, Target, Users, Award, CheckCircle2, Calendar } from "lucide-react";
 import { Navbar } from "../components/navbar";
 import { Footer } from "../components/footer";
-import { ImageWithFallback } from "../components/figma/ImageWithFallback";
+import { ImageWithFallback } from "../components/ImageWithFallback";
 import { Button } from "../components/ui/button";
 import { projects } from "../data/projects";
 
