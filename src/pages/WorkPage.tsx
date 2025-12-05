@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { TrendingUp, Award } from "lucide-react";
 import { Navbar } from "../components/navbar";
 import { Footer } from "../components/footer";
-import { ImageWithFallback } from "../components/figma/ImageWithFallback";
+import { ImageWithFallback } from "../components/ImageWithFallback";
 import { useNavigate } from "react-router-dom";
 import { projects } from "../data/projects";
 import { SEO, portfolioSchema } from "../components/SEO";

@@ -1,5 +1,5 @@
 import { ArrowUpRight, TrendingUp } from "lucide-react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { ImageWithFallback } from "./ImageWithFallback";
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
