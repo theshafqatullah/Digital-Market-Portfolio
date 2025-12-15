@@ -151,7 +151,7 @@ export const projects: Project[] = [
   },
   {
     id: "b2b-lead-generation",
-    title: "Real eState B2B Lead Generation",
+    title: "Real Estate B2B Lead Generation",
     client: "Enterprise Software Company",
     category: "B2B Marketing",
     year: "2023",
